@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sir\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Ruby24-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\mysql\bin;C:\Program Files\nodejs\;C:\xampp\apache\bin;C:\bin;C:\Users\sir\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\sir\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Docker Toolbox;C:\Users\sir\AppData\Roaming\Composer\vendor\bin;C:\Users\sir\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.1.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "prod": "gulp --production",
+      "dev": "gulp watch"
+    },
+    "devDependencies": {
+      "bootstrap-sass": "^3.3.7",
+      "gulp": "^3.9.1",
+      "jquery": "^3.1.0",
+      "laravel-elixir": "^6.0.0-15",
+      "laravel-elixir-vue-2": "^0.2.0",
+      "laravel-elixir-webpack-official": "^1.0.6",
+      "lodash": "^4.16.2",
+      "vue": "^2.0.1",
+      "vue-resource": "^1.0.3"
+    },
+    "dependencies": {
+      "node-sass": "^4.5.3",
+      "process-nextick-args": "^1.0.7",
+      "reinstall": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\xampp\htdocs\laravel\dataview\node_modules\gulp-sass\node_modules\node-sass\vendor\win32-x64-57\binding.node'
